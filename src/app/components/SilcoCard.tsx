@@ -10,7 +10,7 @@ export default function SilcoCard() {
 
   return (
     <div
-      className="overflow-hidde flex min-h-[100dvh] cursor-pointer items-center justify-center"
+      className="overflow-hidden flex min-h-[100dvh] cursor-pointer items-center justify-center"
       ref={containerRef}
     >
       <motion.div
