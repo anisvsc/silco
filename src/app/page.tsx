@@ -1,5 +1,11 @@
+import CopyRepo from './components/CopyRepo';
 import SilcoCard from './components/SilcoCard';
 
 export default function Home() {
-  return <SilcoCard />;
+  return (
+    <div className="relative">
+      <SilcoCard />
+      <CopyRepo />
+    </div>
+  );
 }
